@@ -1,0 +1,70 @@
+1.
+設定環境變數
+C:\Users\1907118>cd c:\users\1907118\desktop
+
+執行c:\Users\1907118\Desktop>python new1.py
+
+快速執行python F10
+cmd/k python "$(FULL_CURRENT_PATH)"& PAUSE & EXIT
+
+2.
+整數int()    integer      (0預設值)
+浮點float()  float        (0.0預設值)
+字串str ()   string
+布林bool()  True(!=非0)/False(==0)要大寫(False預設值)
+
+型別type   class
+型態cht    character 
+
+型態轉換casting
+自我指派a = a + 2變成 a += 2  
+        a = b = 10 從右至左
+
+加上敘述print(""the sum is $",num1 + num2)會自動加空格
+income = int(input()) 
+print(""the sum is $" + str(income))
+
+3.
+print(len(a)) 長度
+print(type(a))型態
+print(num1 // num2)除後得商
+print(num1 % num2)除後得餘數
+print(num1 ** num2)次方
+input(裡面預設是字串)
+
+equals  ==
+become  =
+and   與
+or    或
+if not   不
+while 當(一直做判斷)
+
+() 優先
+loop = Iterations 迭代
+
+
+if  若   if b:  如果b非空值
+else不能單獨存在
+elif
+
+#註解  ctrl+q
+"""
+註解
+"""
+
+a = 1.2
+b = 2
+c = a + b
+print(type(c))
+-----------------
+
+a = str(1)
+a = a + str(2)
+a += str(3)  
+print(1)
+print(2)
+print(3)
+-----------------
+錯誤碼
+
+需要縮排 IndentationError: expected an indented block
